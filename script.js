@@ -1,4 +1,3 @@
-//theory is at the bottom
 
 //eventlisteners on those 7 buttons
 
@@ -25,7 +24,7 @@ document.addEventListener("keypress", function(event){
 
     buttonAnimation(event.key);
 
-    //key is the predefined keyword here that gives the character value of he key pressed on the keyboard.
+    //key is the predefined keyword here that gives the character value of the key pressed on the keyboard.
 })
 
 
@@ -110,43 +109,3 @@ function buttonAnimation(keypressed){
 
 
 
-//eventListeners are added to perform some action when some other action is performed.
-//eg. key "w" is clicked then bring an alert that says i got clicked
-
-//the second parameter passed to addeventlistener is generally a javascript function.
-
-// document.querySelector("button").addEventListener("click", handleClick);
-
-// function handleClick(){
-//     alert("I got clicked!");
-// }
-
-//OR
-
-// document.querySelectorAll("button").addEventListener("click", function(){
-//     alert("I got clicked!");
-// })
-
-//if i want to add eventlistener to all the buttons then looping is necessary otherwise we would have to write queryselectorall with indexes 7 times.
-
-// for(var i = 0 ; i < document.querySelectorAll(".drum").length ; i++){
-
-//     document.querySelectorAll(".drum")[i].addEventListener("click", function(){
-
-        // console.log(this);
-        //ye jo this hai ye html tag return karega jaise <button>...</button> vala.
-        //if we want to access the text of the button then
-        // console.log(this.innerHTML);
-        
-
-        //if we want to change the color of the button that has been clicked.
-//         this.style.color="orange";
-        
-        
-//     })
-// }
-
-
-
-// var audio = new Audio("/sounds/tom-1.mp3");
-// audio.play();
