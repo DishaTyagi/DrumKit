@@ -78,7 +78,7 @@ function buttonAnimation(keypressed){
     setTimeout(function(){
         activeKey.classList.remove("pressed");
 
-    }, 100);    //0.1 seconds ke baad aetTimeout ka first parameter i.e. function execute hoga
+    }, 100);    
 }
 
 
